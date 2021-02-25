@@ -231,6 +231,7 @@ a.btn-gradient:hover:after {
 
 .hotels-slides {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .hotels-slide img {
@@ -246,7 +247,7 @@ a.btn-gradient:hover:after {
 }
 
 .each-security-discription {
-  width: 80%;
+  width: 75%;
 }
 
 .each-security-discription i {
@@ -255,7 +256,7 @@ a.btn-gradient:hover:after {
 
 .each-security-discription h2 {
   font-weight: bold;
-  font-size: 23px;
+  font-size: 22px;
   padding: 20px 0;
 }
 
@@ -285,6 +286,10 @@ a.btn-gradient:hover:after {
 .income-sentence {
   padding-top: 90px;
   padding-bottom: 100px;
+}
+
+.income-sentence h1 {
+  width: 90%;
 }
 
 .income-sentence span {
@@ -354,6 +359,10 @@ a.btn-gradient:hover:after {
 
 .form-select-sentence {
   border: solid white;
+  font-size: 15px;
+}
+
+.down {
   font-size: 15px;
 }
 
